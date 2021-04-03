@@ -58,7 +58,7 @@ userNameInput.onkeydown = event =>{
     }    
 };
 
-// 'answers' array has 16　elements.
+// 'answers' array has 17　elements.
 const answers = [
     '{userName}のいいところは声です。{userName}の特徴的な声は皆を惹きつけ、心に残ります。',
     '{userName}のいいところはまなざしです。{userName}に見つめられた人は、気になって仕方がないでしょう。',
@@ -105,7 +105,7 @@ function assessment(userName) {
 // テストコード
 console.assert(
     assessment('太郎') ===
-        '太郎のいいところは決断力です。太郎がする決断にいつも助けられる人がいます。',
+        '太郎のいいところはユニークさです。太郎だけのその特徴が皆を楽しくさせます。',
     '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
 );
 
